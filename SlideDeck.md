@@ -221,8 +221,6 @@ Ultimately: developer experience
 
 <!-- _backgroundImage: linear-gradient(to bottom,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)), url(./images/background.jpg); -->
 
-![bg left:40% 80%](./images/buildeng.jpg)
-
 # Themes of Build Engineering
 
 <!-- prettier-ignore -->
@@ -232,6 +230,7 @@ Ultimately: developer experience
 * Empathetic
   * Communicative
   * Helps Others
+
 
 <!--
 
@@ -354,11 +353,11 @@ without the overhead and baggage.
 # Pants
 
 <!-- prettier-ignore -->
+* Fine-grained Dependency Inference
 * Runs all our tools/code with one UI (CLI)
   - `pants --changed-since=main fix`
   - `pants --transitive check test`
   - `pants run path/to/myfile.py`
-* Fine-grained Dependency Inference
 * Incremental
 * __Extreme__ caching
 * Pluggable
@@ -367,6 +366,12 @@ without the overhead and baggage.
 <!--
 
 Open source build tool
+
+Dependencies:
+- Part of what makes pants incremental
+- I can easily see what goes into our applications/docker images
+- How many consumers of a file there are
+
 
 - `--changed-since=master` -> Only runs on the files that have changed since master
 - `run myfile.py` -> Don't see is activating a virtualenv, downloading large binary blobs artifacts from S3, running codegen
@@ -383,10 +388,6 @@ Pluggable: This is Python...
 - Allows me to have features that are only relevant to my org
 - Allows me to upstream changes, to help everyone and solve "hit by a bus"
 
-Dependencies:
-- Part of what makes pants incremental
-- I can easily see what goes into our applications/docker images
-- How many consumers of a file there are
 
 -->
 
@@ -422,7 +423,8 @@ Software engineering is a SOCIAL activity.
 # Contact
 
 - Pants Slack: https://pantsbuild.slack.com (@thejcannon)
-- Discord: thejcannon#4100
+- Mastodon: @thejcannon@fosstodon.org
+- Discord: thejcannon
 - Email: joshdcannon@gmail.com
 
 ---
