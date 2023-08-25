@@ -219,41 +219,6 @@ Ultimately: developer experience
 
 ---
 
-<!-- _backgroundImage: linear-gradient(to bottom,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)), url(./images/background.jpg); -->
-
-# Themes of Build Engineering
-
-<!-- prettier-ignore -->
-* Responsibility / Ownership
-* Tooling + Automation
-  * Curiosity
-* Empathetic
-  * Communicative
-  * Helps Others
-
-
-<!--
-
-Responsibility:
-- You tend to care about something more when you are responsible for it
-  - That includes the tools/processes
-  - but also includes the people -> "my engineers"
-
-Tooling and Automation:
-- Reduces & eliminates "the human factor"
-  - Humans take time and money
-  - Emotions in human interactions
-- Curioisty: whats out there? Is it better than what we have? What is the community doing?
-
-Empathetic:
-- We can all be more empathetic
-  - Not everyone has the bandwidth or emotional energy to complain
-  - Not everyone is a build engineer
-  - Support: Curse of Knowledge
--->
-
----
-
 ## Who am I?
 
 ## What is BuildEng/DevX?
